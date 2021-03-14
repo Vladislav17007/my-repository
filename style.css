@@ -15,7 +15,7 @@ body{
 .block_row{
     flex-direction: row;
 
-    align-items: stretch;
+    /*align-items: flex-start;*/
 
     display: flex;
 
@@ -45,13 +45,20 @@ body{
 .block_list{
     display: flex;
     align-items: center;
+    li{margin: 0px 15px 0px 0px;
+        &:last-child{margin: 0px 0px 0px 0px};}
 
 }
-.block_info_y { 
+.block_info {
     position: relative;
     padding: 0px 0px 0px 25px;
-    line-height: 180px;
-    border-color: #ece89d;
+    line-height: 15px;
+    &:before{
+        content: '';
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        left: 0;
+    }
+
 }
-
-
