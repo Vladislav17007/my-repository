@@ -24,13 +24,13 @@ body{
 }
 .block_column{
     border: 20px solid #5e5373;
-    /*flex-basis: 500px;
+    flex-basis: 500px;
     flex-grow: 0;
-    flex-shrink: 1;*/
+    flex-shrink: 1;
     flex: 1 1 500px;
 }
 
-.block_column_1{}
+.block_column_1{}   
 .block_column_2{}
 .block_column_3{}
 
