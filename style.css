@@ -13,9 +13,8 @@ body{
 
 }
 .block_row{
-    flex-direction: row;
+    /*flex-direction: row;*/
 
-    /*align-items: flex-start;*/
 
     display: flex;
 
@@ -24,10 +23,10 @@ body{
 }
 .block_column{
     border: 20px solid #5e5373;
-    flex-basis: 500px;
+    /*flex-basis: auto;
     flex-grow: 0;
-    flex-shrink: 1;
-    flex: 1 1 500px;
+    flex-shrink: 1;*/
+    flex: 1 1 170px;
 }
 
 .block_column_1{}   
@@ -44,7 +43,7 @@ body{
 }
 .block_list{
     display: flex;
-    align-items: center;
+    /align-items: center;*/
     li{margin: 0px 15px 0px 0px;
         &:last-child{margin: 0px 0px 0px 0px};}
 
