@@ -26,6 +26,7 @@ body{
     /*flex-basis: auto;
     flex-grow: 0;
     flex-shrink: 1;*/
+    <!-- -->
     flex: 1 1 170px;
 }
 
@@ -46,7 +47,7 @@ body{
     /align-items: center;*/
     li{margin: 0px 15px 0px 0px;
         &:last-child{margin: 0px 0px 0px 0px};}
-
+        
 }
 .block_info {
     position: relative;

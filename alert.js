@@ -7,15 +7,9 @@ ready(function(){
 
 });
 
-let HI = 'Hello world!';
+let HI ='Hello world!';
+alert(HI)
 
-{
-    console.log('HI');
-    console.log
-}
+console.log(HI)
 
-alert('HI');
 
-function square(number) {
-    return number * number;
-}
