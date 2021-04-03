@@ -1,3 +1,11 @@
+.block{
+
+}
+
+.block_row{
+  display: flex;
+}
+
 .Plov4ik{
     color: #403b3b;
     margin-left: 150px;
