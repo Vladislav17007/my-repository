@@ -3,17 +3,29 @@
 }
 
 .block_row{
-  display: flex;
+  display: flexbox;
+
+  border-width: 20px solid #ece89d;
+  margin: 0px 0px 20px 0px;
+}
+
+.block_column{
+  border: 20px solid #f2ff00fd;
+}
+
+.block_item{
+background-color: #18b5a4;
+
 }
 
 .Plov4ik{
-    color: #403b3b;
+    color: #000;
     margin-left: 150px;
     margin-right: 150px;
     }
     
     .Today_is{
-      color: #face01;
+      color: #cafe01;
     
     }
     
