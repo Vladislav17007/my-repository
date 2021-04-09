@@ -1,8 +1,12 @@
+@@ -1,60 +0,0 @@
 .block{
 
 }
 
 .block_row{
+
+flex-direction: row-reverse;
+
   display: flexbox;
 
   border-width: 20px solid #ece89d;
