@@ -1,11 +1,10 @@
-@@ -1,60 +0,0 @@
 .block{
 
 }
 
 .block_row{
 
-flex-direction: row-reverse;
+flex-direction: row;
 
   display: flexbox;
 
