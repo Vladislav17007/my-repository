@@ -4,7 +4,7 @@
 
 .block_row{
 
-flex-direction: row;
+flex-direction: row-reverse;
 
   display: flexbox;
 
