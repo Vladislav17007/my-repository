@@ -4,9 +4,10 @@
 
 .block_row{
 
-flex-direction: column;
+flex-direction: row-reverse;
+align-items: flex-start;
 
-  display: flexbox;
+  display: flex;
 
   border-width: 20px solid #ece89d;
   margin: 0px 0px 20px 0px;
