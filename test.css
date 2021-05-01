@@ -4,9 +4,10 @@
 
 .block_row{
 
-flex-direction: row-reverse;
+flex-direction: ;
 align-items: flex-start;
 
+flex-wrap: nowrap;
   display: flex;
 
   border-width: 20px solid #ece89d;
@@ -61,4 +62,89 @@ background-color: #18b5a4;
       width: 100%;
     }
     
+    /*BODY*/
+
+    .body{
+      left: 0px;
+      margin: 0px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    /*MENU*/
+
+    .menu{
+      background: #555;
+      left: -285px;
+      height: 100%;
+      position: fixed;
+      width: 285px;
+    }
+
+    /* Basic CSS */
+
+    .background{
+      background-color: #4E2982;
+      height: 100%;
+      width: 100%;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+        -o-background-size: cover;
+           background-size: cover;
+           
+      
+    }
+
+    .menu ul{
+      border-top: 1px solid #4e2982;
+      list-style: none;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .menu li{
+      border-bottom: 1px solid #4e2982;
+      font-family: 'Open Sans', sans-serif;
+      line-height: 45px;
+      padding-bottom: 3px;
+      padding-left: 20px;
+      padding-top: 3px;
+    }
+
+    .menu li :hover{
+      cursor: pointer;
+      background-color: #CFF700;
+    }
+
+    .menu a{
+      color: #A3B92E;
+      font-size: 15px;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    .icon-close{
+      color: #A3B92E;
+      cursor: pointer;
+      padding-left: 10px;
+      padding-top: 10px;
+      padding-bottom: 6px;
+    }
+
+    .icon-menu{
+      color: #A3B92E;
+      cursor: pointer;
+      font-family: 'Open Sans' sans-serif;
+      font-size: 20px;
+      padding-bottom: 25px;
+      padding-left: 25px;
+      padding-top: 25px;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    .icon-menu img{
+      margin-right: 5px;
+    }
+
     
