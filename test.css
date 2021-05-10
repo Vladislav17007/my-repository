@@ -62,89 +62,87 @@ background-color: #18b5a4;
       width: 100%;
     }
     
-    /*BODY*/
+    /* Body */
 
-    .body{
-      left: 0px;
-      margin: 0px;
-      overflow: hidden;
-      position: relative;
-    }
+body {
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
 
-    /*MENU*/
 
-    .menu{
-      background: #555;
-      left: -285px;
-      height: 100%;
-      position: fixed;
-      width: 285px;
-    }
+/* Menu */
 
-    /* Basic CSS */
+.menu {
+  background: #555 url('images/menu-bg.jpg') repeat left top;
+  left: -285px; /* прячем меню */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
 
-    .background{
-      background-color: #4E2982;
-      height: 100%;
-      width: 100%;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-        -o-background-size: cover;
-           background-size: cover;
-           
-      
-    }
 
-    .menu ul{
-      border-top: 1px solid #4e2982;
-      list-style: none;
-      margin: 0px;
-      padding: 0px;
-    }
+/* Basic CSS */
 
-    .menu li{
-      border-bottom: 1px solid #4e2982;
-      font-family: 'Open Sans', sans-serif;
-      line-height: 45px;
-      padding-bottom: 3px;
-      padding-left: 20px;
-      padding-top: 3px;
-    }
+.background {
+  background-image: url('images/chicago-night.jpg'); 
+  height: 100%;
+  width: 100%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
 
-    .menu li :hover{
-      cursor: pointer;
-      background-color: #CFF700;
-    }
+.menu ul {
+  border-top: 1px solid #555;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
-    .menu a{
-      color: #A3B92E;
-      font-size: 15px;
-      text-decoration: none;
-      text-transform: uppercase;
-    }
+.menu li {
+  border-bottom: 1px solid #555;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
 
-    .icon-close{
-      color: #A3B92E;
-      cursor: pointer;
-      padding-left: 10px;
-      padding-top: 10px;
-      padding-bottom: 6px;
-    }
+.menu li:hover {
+  cursor: pointer;
+  background-color: #555;
+  }
 
-    .icon-menu{
-      color: #A3B92E;
-      cursor: pointer;
-      font-family: 'Open Sans' sans-serif;
-      font-size: 20px;
-      padding-bottom: 25px;
-      padding-left: 25px;
-      padding-top: 25px;
-      text-decoration: none;
-      text-transform: uppercase;
-    }
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 
-    .icon-menu img{
-      margin-right: 5px;
-    }
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 6px;
+}
 
-    
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-menu img {
+  margin-right: 5px;
+}
+
